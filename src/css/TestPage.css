@@ -1,0 +1,117 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.testpage-container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    background-image: url(../utils/img/signlanguage-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testpage-wrapper{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testpage-container::before{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+   
+    background-color: rgb(0, 0, 0,0.6);
+}
+.test-elements{
+    color: white;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+.test-heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.test-heading >p{
+    color: rgb(239, 218, 78);
+    
+    font-size: 3rem;
+    font-weight: 300;
+}
+.test-heading >h1{
+    color: white;
+    font-size: 6rem;
+    font-weight: 500;
+}
+.test-real-time-results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.test-real-time-div{
+    width: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 3.5em;
+    font-weight: 500;
+    height: 6vw;
+    background-color: white;
+    border-radius: 0.2em;
+}
+.test-timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40em;
+}
+.test-timer>p{
+    font-size: 0.8em;
+    
+}
+.test-timer>span{
+    font-size: 0.3em;
+   
+}
+.test-divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.test-input-div>input{
+    width: 50vw;
+    height: 4vw;
+    border-radius: 2em;
+    background-color: white;
+    border: none;
+    font-size: 2.5em;
+    padding: 1em;
+    
+}
