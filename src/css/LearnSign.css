@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#right {
+    width: 50%;
+    background-color: #000;
+}
+
+#recordBtn {
+    font-size: 16px;
+    height: 30px;
+    padding: 15px 13px 34px 13px;
+    background-color: #007bff;
+    color: #fff;
+    outline: none;
+    border: 1px transparent;
+    border-radius: 9px;
+    vertical-align: middle;
+}
+
+#recordBtn:hover {
+    cursor: pointer;
+    background-color: #17a2b8;
+}

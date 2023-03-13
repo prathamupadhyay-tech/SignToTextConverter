@@ -1,8 +1,9 @@
-import './App.css';
+import { LearnSign } from './components/LearnSign.jsx';
 
 function App() {
   return (
     <div className="App">
+      <LearnSign />
     </div>
   );
 }
